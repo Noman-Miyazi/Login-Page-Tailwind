@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./Image/emojis.com login.png"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="login-page xl:flex justify-center xl:space-x-[200px] mt-[40px]">
+
+      <div class="log-text">
+        <h1 class="font-bold text-7xl  lg:text-[80px] text-[#1C1C1C] text-center ">
+          Welcome
+        </h1>
+
+        <p class="text-[#1C1C1C] text-center xl:ml-[0px] md:text-center">
+          We are glad to see you back with us
+        </p>
+        <form class="flex flex-col items-center">
+
+          <div class="relative m-10 w-[380px]">
+          <img src="./Image/Frame.png" class="absolute sm:left-[-30px] md:left-[-30px] left-7 xl:left-3 top-1/2 transform -translate-y-1/2 h-6 w-6" alt="user-logo">
+          <input
+            type="text"
+            class=" bg-[#F2F2F2] h-[50px] w-[350px] px-[50px] sm:ml-[-50px] sm:w-[500px] sm:px-[50px] md:w-[500px] md:px-[50px] xl:w-[380px] xl:px-[50px] ml-[15px] md:ml-[-50px] xl:ml-[0px] rounded-2xl"
+            placeholder="Username"
+            required
+          />
+          </div>
+
+          <div class="relative w-[380px]">
+          <img src="./Image/Frame 1.png" class="absolute sm:left-[-30px] left-7 md:left-[-30px] xl:left-3 top-1/2 transform -translate-y-1/2 h-6 w-6" alt="pass-logo">
+          <input
+            type="Password"
+            class=" bg-[#F2F2F2] h-[50px] w-[350px] px-[50px] sm:ml-[-50px] sm:w-[500px] sm:px-[50px] md:w-[500px] md:px-[50px] xl:w-[380px] xl:px-[50px] ml-[15px] md:ml-[-50px] xl:ml-[0px] rounded-2xl"
+            placeholder="Password"
+            required
+          />
+          </div>
+
+          <button
+            type="submit"
+            class="text-[#FFFFFF] bg-[#1C1C1C] h-[50px] w-[350px] sm:ml-[55px] sm:w-[500px] sm:px-[50px] md:w-[500px] md:px-[50px] xl:w-[380px] xl:ml-[40px] rounded-2xl m-10 font-bold hover:bg-gray-700"
+          >
+            NEXT
+          </button>
+
+          <p class="text-[#1C1C1C] text-[20px]">
+            <span class="font-extrabold text-[#1C1C1C]">Login</span> with Others
+          </p>
+
+          <button
+            type="button"
+            class="flex justify-center items-center space-x-2 text-[#1C1C1C] h-[50px] w-[350px] sm:ml-[55px] sm:w-[500px] sm:px-[50px] md:w-[500px] md:px-[50px] xl:w-[380px] xl:ml-[40px] rounded-2xl m-10 font-normal border border-gray-900 hover:bg-gray-200"
+            onclick="alert('🎉 Your login has been successful with google.🎉');"
+          >
+            <img src="./Image/google 1.png" /><span
+              >Login with
+              <span class="font-extrabold text-[#1C1C1C]">google</span></span
+            >
+          </button>
+
+          <button
+            type="button"
+            class="flex justify-center items-center space-x-2 text-[#1C1C1C] h-[50px] w-[350px] sm:ml-[10px] sm:w-[500px] sm:px-[50px] md:w-cover md:flex md:justify-center md:px-[50px] xl:w-[380px] xl:ml-[-5px] rounded-2xl font-normal border border-gray-900 hover:bg-gray-200"
+            onclick="alert('🎉 Your login has been successful with facebook.🎉');"
+            >
+            <img src="./Image/facebook 1.png" />
+            <span>Login with <span class="font-extrabold text-[#1C1C1C]">facebook</span></span>
+          </button>
+        </form>
+      </div>
+
+      <div class="p-[30px] sm:w-auto md:w-auto md:flex md:justify-center  lg:w-auto lg:flex lg:justify-center  xl:p-[0px]">
+        <img src="./Image/Rectangle 4.png" class=""/>
+      </div>
+    </div>
+
+    <img src="./Image/Vector.png" class="h-[100px] xl:h-auto"/>
+  </body>
+</html>
